@@ -30,9 +30,9 @@ All predictor variables were sourced from **Google Earth Engine (GEE)** using pu
 > All data were extracted at an **8 km spatial resolution** using a point-by-point sampling method for improved robustness across the study region.
 
 ---
-
 ## 🧩 Repository Structure
 
+```
 ml-biomass-estimation/
 │
 ├── dissertation.ipynb           # Main notebook for data extraction, modeling, and results
@@ -58,6 +58,7 @@ ml-biomass-estimation/
 ├── requirements.txt             # List of dependencies
 ├── LICENSE                      # MIT License or other
 └── README.md                    # Project documentation (this file)
+```
 
 ---
 
