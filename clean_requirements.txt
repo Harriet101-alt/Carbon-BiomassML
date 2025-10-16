@@ -1,0 +1,8 @@
+# Requirements for ML Biomass Estimation Project
+pandas
+numpy
+scikit-learn
+xgboost
+matplotlib
+tensorflow
+joblib
