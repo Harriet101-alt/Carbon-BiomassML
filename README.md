@@ -29,37 +29,20 @@ All predictor variables were sourced from **Google Earth Engine (GEE)** using pu
 
 > All data were extracted at an **8 km spatial resolution** using a point-by-point sampling method for improved robustness across the study region.
 
----
+
 ## 🧩 Repository Structure
 
 ```
-ml-biomass-estimation/
+ml-biomass-estimation
 │
-├── dissertation.ipynb           # Main notebook for data extraction, modeling, and results
+├── dissertation.ipynb           # Main Jupyter notebook containing all analysis, data extraction, and ML modeling
 │
-├── data/                        # Folder for input and processed data
-│   ├── raw/                     # Original data (e.g., CSVs, shapefiles, downloaded sources)
-│   └── processed/               # Cleaned and merged datasets used for modeling
+├── requirements.txt             # List of Python dependencies used in the notebook
 │
-├── models/                      # Trained or saved ML models (optional)
-│   ├── xgboost_model.pkl
-│   └── random_forest_model.pkl
+├── README.md                    # Project documentation (overview, data sources, and results)
 │
-├── results/                     # Output figures, performance metrics, and visualizations
-│   ├── feature_importance.png
-│   ├── model_comparison.csv
-│   └── agc_predictions_map.png
-│
-├── scripts/                     # Python scripts (if you later modularize your notebook)
-│   ├── data_preprocessing.py
-│   ├── model_training.py
-│   └── evaluation.py
-│
-├── requirements.txt             # List of dependencies
-├── LICENSE                      # MIT License or other
-└── README.md                    # Project documentation (this file)
+└── LICENSE                      # License for the project (e.g., MIT)
 ```
-
 ---
 
 ## ⚙️ Methodology Summary
